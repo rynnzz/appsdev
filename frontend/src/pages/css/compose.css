@@ -1,0 +1,119 @@
+img {
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+.body {
+  background-color: #292a2d;
+  height: 100%;
+  margin: 0;
+  font-family: 'Product Sans', sans-serif;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+.compose-dialog {
+  color: white;
+  font-family: 'Product Sans Medium', sans-serif;
+}
+
+
+.header {
+  background-color: #1f1f1f;
+  color: white;
+  width: 100%;
+  font-family: 'Product Sans Black', sans-serif;
+}
+
+.urgent-label {
+  font-family: 'Product Sans Medium', sans-serif;
+  margin-bottom: 10px;
+}
+
+.urgent-checkbox {
+  margin-bottom: 10px;
+}
+
+.nav-bar {
+  font-family: 'Product Sans Medium', sans-serif;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  padding: 8px;
+  transition: background-color 0.3s;
+  border-radius: 10px;
+}
+
+.nav-link:hover,
+.active {
+  background-color: #595959;
+  color: #ebebeb;
+  border-radius: 10px;
+}
+
+.compose {
+  padding: 6px 12px;
+  background: rgb(31, 32, 35);
+  border: 1px solid rgb(60, 63, 68);
+  border-radius: 10px;
+  color: rgb(247, 248, 248);
+  height: 230px;
+  appearance: none;
+  transition: border 0.15s ease 0s;
+  width: 660px;
+  position: relative;
+  text-align: left;
+  font-size: 20px;
+  font-family: 'Product Sans', sans-serif;
+}
+
+.category {
+  padding: 6px 12px;
+  background: rgb(31, 32, 35);
+  border: 1px solid rgb(60, 63, 68);
+  border-radius: 10px;
+  color: rgb(247, 248, 248);
+  height: 46px;
+  appearance: none;
+  transition: border 0.15s ease 0s;
+  margin: 20px;
+  font-family: 'Product Sans Medium', sans-serif;
+}
+.date {
+  margin: 20px;
+  padding: 6px 12px;
+  background: rgb(31, 32, 35);
+  border: 1px solid rgb(60, 63, 68);
+  border-radius: 10px;
+  color: rgb(247, 248, 248);
+  height: 46px;
+  appearance: none;
+  transition: border 0.15s ease 0s;
+  font-family: 'Product Sans Medium', sans-serif;
+}
+.notification-dropdown {
+  position: absolute;
+  right: 0;
+  top: 100%;
+  background: rgb(31, 32, 35);
+  border: 1px solid rgb(60, 63, 68);
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  min-width: 500px;
+  max-height: 400px;
+  overflow-y: auto;
+  margin-top: 5px;
+}
+
+.notification-item {
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+  font-family: 'Product Sans Medium', sans-serif;
+}
+
+.notification-item:last-child {
+  border-bottom: none;
+}

@@ -1,0 +1,74 @@
+img {
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+.body {
+  background-color: #292a2d;
+  height: 100%;
+  margin: 0;
+  font-family: 'Product Sans Medium', sans-serif;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  background-color: #1f1f1f;
+  color: white;
+  width: 100%;
+  font-family: 'Product Sans Black', sans-serif;
+}
+
+.custom-card {
+  background-color: #292a2d;
+  margin: 0;
+  font-family: 'Product Sans Medium', sans-serif;
+  color: white;
+}
+.compose {
+  padding: 6px 12px;
+  background: rgb(31, 32, 35);
+  border: 1px solid rgb(60, 63, 68);
+  border-radius: 10px;
+  color: rgb(247, 248, 248);
+  height: 200px;
+  appearance: none;
+  transition: border 0.15s ease 0s;
+  width: 100%;
+  text-align: left;
+  font-size: 20px;
+  font-family: 'Product Sans', sans-serif;
+}
+
+.date {
+  padding: 6px 12px;
+  background: rgb(31, 32, 35);
+  border: 1px solid rgb(60, 63, 68);
+  border-radius: 10px;
+  color: rgb(247, 248, 248);
+  height: 46px;
+  appearance: none;
+  transition: border 0.15s ease 0s;
+  font-family: 'Product Sans Medium', sans-serif;
+}
+
+.nav-bar {
+  font-family: 'Product Sans Medium', sans-serif;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  padding: 8px;
+  transition: background-color 0.3s;
+  border-radius: 10px;
+}
+
+.nav-link:hover,
+.active {
+  background-color: #595959;
+  color: #ebebeb;
+  border-radius: 10px;
+
+}
